@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #000000;
+    margin-left: 30%;
+}
+
+.banner{
+    background-image: url("../img/lemon-pie.png");
+    height: 343px;
+    width: 650px;
+    background-repeat: no-repeat;
+   
+}
+
+.titulo-banner{
+    height: 173px;
+    padding-top: 170px;
+    color: #ffff;
+    background-color: #00000044;
+}
+
+.instrucciones{
+    width: 650px;
+}
