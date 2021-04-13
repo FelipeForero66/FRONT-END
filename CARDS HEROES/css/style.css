@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+   font-weight: normal;
+   font-style:normal;
+}
+
+.descuento {
+    background-color: #1CD1B0;
+    padding: 10px  0px 10px 10px;
+    font-weight: bold;
+ 
+}
+
+.titulo{
+    background-color: #00669F;
+    color: #ffff;
+    padding: 20px  0px 20px 10px;
+}
+
+h1{
+    font-weight:lighter;
+}
+
+.contenido{
+    margin-left: 30%;
+
+}
+
+.tarjeta{
+    width: 500px;
+    height: 630px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #F3F3F3;
+    border-radius: 50px 50px 0 0;
+}
+
+.imagenes{
+    width: 500px;
+    border-radius: 50px 50px 0 0;
+}
+
+.contenedor-corazon {
+    margin: -300px 0 300px -350px;
+}
+
+.corazon{
+    width: 24px;
+    height: 24px;
+}
+
+.foto-batman{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: -90px;
+    margin-top: -100px;
+    background-color: #F3F3F3;
+}
+
+.heroes{
+    background-color: #F3F3F3;
+}
+
+.foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -100px;
+    background-color: #F3F3F3;
+}
+
+.selector{
+   background-color: #00669F;
+   color: #F3F3F3;
+   width: 100px;
+   height: 30px;
+    padding-top: 12px;
+    border-radius: 5px 5px;
+    margin: 15px 0 15px 200px;
+}
+
+.ultimo{
+    background-color: #00669F;
+    color: white;
+   margin-top: 25px;
+   text-align: center;
+   padding: 30px;
+   height: 20px;
+}
+
+#git{
+    margin-left: 800px;
+    margin-top: -40px;
+    height: 50px;
+}
