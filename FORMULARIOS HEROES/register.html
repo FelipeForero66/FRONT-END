@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header> 
+        <div class= "encabezado">
+            <p class="descuento">20% de descuento en todos los productos </p>
+        </div>
+        <div id="tienda">
+            <img class="imagenSuperior" src="./IMG/Tienda.png" alt="supermarket model">
+            <p class="supermarket">Nombre tienda</p>
+        </div>
+        <div class="margenOscuro">
+            <nav>
+                <div class="superior">
+                    <a id="navegador" href="">Inicio</a>
+                    <a id="navegador" href="">Registrarme</a>
+                    <a id="navegador" href="">Ingresar</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+<section class="margenGrande">
+        <div class="login">
+        <h3>Añadí tu personaje favorito!</h3>
+        <h3 id="letra">Agrega tu personaje favorito completando las opciones</h3>
+        <section class="margenizquierdo">
+                <form action="contacto.html" method="POST">
+                
+                <div class="campo">
+                    <h4 id="letras">Nombre</h4>
+                    <input type="nombre" id="nombre" name="nombre" placeholder="usuario" required minlength="5">
+                </div>
+                   
+                    <div class="campo">
+                    <h4 id="letras">Fecha</h4>
+                    <input type="date" id="date" name="date" placeholder="date" required minlength="5">
+                </div>
+        
+                <div class="campo">
+                    <textarea name="texto" id="texto" value="Escribir un comentario"></textarea>    
+                </div>
+        </div>     
+        <section id="margenderecho">
+                <h4>Especie</h4>
+                    
+               
+                    <div id="margenfaltante">
+                        <select name="especie" id=margenfaltante>
+                        <option>Terricola</option>
+                        <option>Extraterrestre</option>
+                        <option>Robot</option>
+                        <option>Mutante</option>
+                        <option>Ciborg</option>
+                           </select>
+                    </div>
+             
+                    </div>
+
+                    <h4>Agregar Foto</h4>
+                    <div class="campo2">
+                        <input type="file" name="imagenSuper" accept=".jpg" multiple>
+                    </div>
+                    <div>
+                        <h4>Poderes</h4>
+                        <input type="checkbox" name="poderes" value="volar">Volar<br>
+                        <label><input type="checkbox" name="poderes" value="SF">Super Fuerza  </label> <br>
+                       
+                        <label><input type="checkbox" name="poderes" value="Inmort">Inmortalidad</label><br>
+                        <label> <input type="checkbox" name="poderes" value=" Rayos">Rayos laser</label><br><br>
+                    </div>  
+
+                    <h4>Tipo de personaje </h4>
+                    <label><input type="radio" name="poderes" value="volar">Héroe/Heroina</label><br>
+                    <label><input type="radio" name="poderes" value="SF">Villano/Villana </label> 
+                    
+                   </select>
+                   
+            </section>
+          
+        </section>
+        <input type="submit" id="añadir" value="Añadir">
+        </form>       
+    </div>
+  
+</section>
+</section>
+    <footer>
+        <div class="pie">
+            <p id="parrafoFinal">Todos los derechos reservados a FRONT-END</p>
+        </div>
+    </footer>
+</body>
+</html>

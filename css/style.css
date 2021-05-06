@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+
+body{
+background-image: url(../img/portada.jpg);
+}
+
+header{
+  font-size: 20px;
+  
+}
+
+footer{
+  background-color:rgb(49, 35, 35);
+  text-align:left;
+  height: 50px;
+  margin-top: 121px;
+  color: cornsilk;
+}
+
+
+
+.barra{
+  color: aliceblue;
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+}
+
+h1{text-align: justify;
+}
+
+.imagen{
+  height: 50px;
+  width: 50px;
+
+}
+
+.navegador{
+  background-color:rgb(49, 35, 35);
+  height: 60px;
+  font-weight: bolder;
+  text-align: right;
+}
+
+#titulo {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 100px;
+    font-size: 30px;
+    transition: all;
+    font-weight: bolder;
+}
+
+#titulo:hover{
+  color: rgb(75, 56, 126);
+}
+
+main {
+  width: 100%;
+  align-content: center;
+}
+
+
+
+
+.cuadro{
+    text-align: center;
+    margin-left: 160px;
+    margin-top: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    width: 70%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center
+};
+
+.cuadro:hover{
+    border-bottom: 5px solid var(--decoration-color);
+};
+
+
+.recuadro{
+    height: 10px;
+    width: 30px;
+color:var(--secondary-color);
+background: var(--primary-color);
+text-decoration: none;
+transition-property: all;
+transition-duration: 500ms;
+transition-timing-function: ease 
+}
+
+.recuadro:hover{
+    background-color: black;
+    color: rgb(141, 168, 192);
+    border-radius: 30px
+};
+
+
