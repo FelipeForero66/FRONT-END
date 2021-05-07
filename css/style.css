@@ -9,7 +9,9 @@
 }
 
 body{
-background-image: url(../img/portada.jpg);
+background-image: url(../img/nube.jpg);
+background-repeat:no-repeat;
+background-size: cover;
 }
 
 header{
@@ -21,10 +23,9 @@ footer{
   background-color:rgb(49, 35, 35);
   text-align:left;
   height: 50px;
-  margin-top: 121px;
+  margin-top: 85px;
   color: cornsilk;
 }
-
 
 
 .barra{
@@ -63,16 +64,13 @@ h1{text-align: justify;
 }
 
 #titulo:hover{
-  color: rgb(75, 56, 126);
+  color: rgb(23, 179, 101);
 }
 
 main {
   width: 100%;
   align-content: center;
 }
-
-
-
 
 .cuadro{
     text-align: center;
