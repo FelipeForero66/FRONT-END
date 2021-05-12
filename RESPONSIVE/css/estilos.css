@@ -193,37 +193,32 @@ footer ul {
 
 /* Responsive para tablets y celulares  */
 
+@media screen and (max-width: 780px) {
 
-@media screen and (min-width: 360px) {
-    bg-header{
-        min-width: 360px;
-        
-    }
-
-}
-
-
-
-
-@media screen and (min-width: 600px) {
-
-    .bg-header{
-        min-width: 760px;
+    .bg-header h1{
+        font-size: 50px;
         
     }
     
-    .card {
-       min-width: 760px;
+    section {
+      padding:40px 10px;
     
     }
     
-    #card-section>div {
+   section div {
         flex-direction: column;
+        display:flex;
+    }
+
+    #card-section div{
+        padding-bottom: 15px;
+        width: 100%;
+        padding: 30px 10px;
     }
     
-    section>div {
-        display: flex;
-        flex-direction: column;
+    .contacto{
+        width: 100%;
+        text-align: center;;
         }
     
     .formulario {
@@ -235,7 +230,18 @@ footer ul {
         }
         footer{
             flex-direction: column;
-            align-items: center;
+            display: flex;
         }
     }  
     
+
+    @media screen and (max-width: 450px) {
+        bg-header{
+        height: 100vh;
+        }
+
+        bg-header h1{
+            font-size: 40px;
+            }
+     
+    }
