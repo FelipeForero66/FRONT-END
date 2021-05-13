@@ -12,6 +12,7 @@ body{
 background-image: url(../img/nube.jpg);
 background-repeat:no-repeat;
 background-size: cover;
+
 }
 
 header{
@@ -108,5 +109,6 @@ transition-timing-function: ease
     color: rgb(141, 168, 192);
     border-radius: 30px
 };
+
 
 
